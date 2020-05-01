@@ -10,6 +10,5 @@ See the example in the costFunction.m
 >initialTheta = zeros(2,1)  
 >[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options)  
 
-Then, you get this result:
-![Image of result]
-()
+Then, you get this result:  
+![Image of result](https://github.com/YummyPancake/Coursera-Machine-Learning-notes/blob/master/Week3-Logistic-Regression/images/image1.JPG)
