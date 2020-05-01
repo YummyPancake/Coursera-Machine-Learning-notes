@@ -6,7 +6,10 @@ See the example in the costFunction.m
 
 * Then use octave's 'fminunc()' optimization algorithm and the 'optimset()' function that creates an object containing the options sent to "fminunc()".
 
->options = optimset('GradObj', 'on', 'MaxIter', 100);
->initialTheta = zeros(2,1)
->[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options)
+>options = optimset('GradObj', 'on', 'MaxIter', 100);  
+>initialTheta = zeros(2,1)  
+>[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options)  
 
+Then, you get this result:
+![Image of result]
+()
